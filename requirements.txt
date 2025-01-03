@@ -1,0 +1,11 @@
+firebase-admin  
+pydantic==2.10.1  
+requests  
+readability-lxml  
+w3lib  
+beautifulsoup4  
+youtube-transcript-api==0.6.3  
+pytube==15.0.0  
+playwright 
+fastapi
+uvicorn
