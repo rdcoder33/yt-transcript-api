@@ -21,6 +21,12 @@ app = FastAPI()
 class URLRequest(BaseModel):  
     url: str  
 
+
+@app.get("/healthcheck")  
+def healthcheck():  
+    return {"status": "ok"}  
+
+
 @app.post("/process-url/")  
 def on_request_v1(req: URLRequest) -> Any:
     try:
