@@ -9,3 +9,4 @@ pytube==15.0.0
 playwright 
 fastapi
 uvicorn
+yt-dlp
